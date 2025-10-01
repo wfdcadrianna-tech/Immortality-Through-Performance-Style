@@ -1,0 +1,114 @@
+/* General dark eerie blue theme with texture */
+body {
+  background-color: #0a0f1f; /* deep navy blue fallback */
+  background-image: url("dark-texture.png"); /* your texture image */
+  background-repeat: repeat;
+  background-attachment: fixed;
+  background-size: auto;
+  
+  color: #b3c6ff; /* pale bluish text */
+  font-family: Arial, sans-serif;
+  margin: 40px;
+  line-height: 1.6;
+}
+
+/* Header and nav */
+header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+header h1 {
+  color: #66ccff; /* glowing cyan */
+  text-shadow: 2px 2px 8px #001133; /* eerie glow */
+}
+
+nav a {
+  color: #80aaff; /* soft blue links */
+  text-decoration: none;
+  margin: 0 10px;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #e6f0ff; /* pale hover */
+  background-color: #001f3f; /* navy hover box */
+  padding: 4px 8px;
+  border-radius: 8px;
+}
+
+/* Section content */
+section h2 {
+  color: #3399ff; /* brighter headline blue */
+  text-shadow: 1px 1px 4px #000;
+}
+
+section p {
+  margin: 15px 0;
+}
+
+/* Hologram image styling */
+.hologram-img {
+  display: block;
+  margin: 20px auto;
+  max-width: 300px;
+  border-radius: 50%;
+  box-shadow: 0 0 25px #3399ff; /* glowing hologram effect */
+}
+
+/* Audio player styling */
+audio {
+  display: block;
+  margin: 20px auto;
+  filter: drop-shadow(0 0 12px #003366);
+}
+/* Title styling */
+header h1 {
+  color: #66ccff; /* glowing cyan */
+  text-shadow: 2px 2px 8px #001133;
+  transition: color 0.4s ease, text-shadow 0.4s ease;
+  cursor: pointer; /* makes it feel interactive */
+}
+
+/* Hover effect */
+header h1:hover {
+  color: #99e6ff; /* lighter blue glow */
+  text-shadow: 0 0 20px #3399ff, 0 0 40px #66ccff; /* hologram glow effect */
+}
+<img src="hologram-face.jpg" alt="Hologram face of Emily Toll" class="hologram-img">
+}
+/* Story choice links inside <section> */
+section a {
+  display: block;
+  margin: 10px 0;
+  padding: 10px;
+  background: linear-gradient(90deg, #33ccff, #66ffff); /* bright cyan gradient */
+  color: #ffffff; /* bright text */
+  font-weight: bold;
+  border-radius: 6px;
+  text-align: center;
+  box-shadow: 2px 2px 6px #000033;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+/* Hover effect for choices */
+section a:hover {
+  background: linear-gradient(90deg, #66ffff, #99ffff);
+  color: #ffffff; /* keep text bright */
+  text-shadow: 0 0 8px #66ffff, 0 0 16px #33ccff; /* glowing cyan effect */
+  transform: scale(1.05);
+  box-shadow: 0 0 20px #33ccff;
+}
+.hologram-img {
+  display: block;       /* centers image */
+  margin: 20px auto;
+  max-width: 300px;     /* scales image down */
+  border-radius: 50%;   /* makes circular */
+  box-shadow: 0 0 25px #3399ff; /* glow effect */
+}
+audio {
+  display: block;
+  margin: 20px auto;
+  filter: drop-shadow(0 0 12px #3399ff); /* glowing effect */
+}
